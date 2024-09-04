@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container{
+    height: 500px;
+    width:500px;
+    background-color:black;
+    border: 30px solid red;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 34%;
+    margin-top:10%;
+    flex-direction: column;
+    gap: 10px; 
+    color: white;
+}
+
+#first-row{
+
+    border: 2px solid white;
+    height: 40px;
+    width: 200px;
+
+}
+
+#second-row{
+
+    border: 2px solid white;
+    height: 40px;
+    width: 200px;
+    
+
+}
+
+#clock{
+    color: red;
+}
